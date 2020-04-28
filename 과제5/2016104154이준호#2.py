@@ -99,3 +99,5 @@ root=tree(key,r,1,n)
 print_inOrder(root)
 print()
 print_preOrder(root)
+# 교훈 : import pdb 모듈 불러오고, 원하는 breakpoint에다가 breakpoint라고 코드 입력 후 f5로 컴파일 하면 한줄씩 디버깅 가능
+# print할 때 개행 방지를 위해선 print("원하는 것 print",end="") 처럼 end=""를 입력해주면 됨
